@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+<head>
+    <title>IMC</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <header class="myheader">
+        This is my header
+    </header>
+    <div>
+        <main>
+            <h1 class="title">Calculate IMC (Body Mass Index)</h1>
+
+            <p class="description">Bienvenido a nuestra calculadora de IMC, una herramienta sencilla y rápida que te
+                permite
+                calcular tu Índice de Masa Corporal utilizando tu altura y peso. Nuestro sitio está diseñado para
+                ayudarte a
+                entender mejor tu estado de salud y a proporcionarte información valiosa sobre tu peso en relación con
+                tu
+                altura. Solo necesitas ingresar tus datos para obtener tu IMC y saber en qué rango te encuentras: bajo
+                peso,
+                peso normal, sobrepeso o obesidad. Esta herramienta es perfecta para quienes buscan llevar un control de
+                su
+                salud de manera efectiva y fácil.</p>
+
+            <img src="Images\IMC.jpeg" alt="Missing picture" height="640" width="480"></img>
+        </main>
+        <form class="form">
+            <label for="height">Height in cm</label>
+            <input type="number" id="height" step="0" min="1" max="300"></input>
+            <label for="weight"> Weight in kg</label>
+            <input type="number" id="weight" step="0.01" min="1" max="300"></input>
+            <button type="button" onclick="calculateIMC()">Click</button>
+        </form>
+
+    </div>
+
+    <footer class="myfooter">
+        This is mi footer
+    </footer>
+
+</body>
+<script src="script.js"></script>
+
+</html>
